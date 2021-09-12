@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Главная</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+   
+</head>
+<body>
+  <div class="nav">
+    <div class="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <div class="main">
+    <h1 class="slovo"><div class="mp">Главная</div></h1>
+  </div>
+  <div class="text">
+    <br><br>
+    <h1 style="font-size: 2em;text-align: center;
+    font-family: 'Roboto Slab', serif; color: rgb(3, 71, 3)">Выберите класс:</h1> 
+    <br>
+  <button class="totop"></button>
+  <!-- зкрытие -->
+  <div class="menublock">
+    <h1 style="font-size: 1.6em;text-align: center;
+    font-family: 'Roboto Slab', serif; color: rgb(3, 71, 3)">Выберите класс:</h1>
+    <div class="classesinmenu">
+    <a href="pages/two-four.html"><button>2 - 4 классы</button></a>
+    <a href="pages/five-seven.html"><button>5 - 7 классы</button></a>
+    <a href="pages/eight-nine.html"><button>8 - 9 классы</button></a>
+    <button>10 - 11 классы</button>
+    </div></div>
+
+<script>
+     
+  $('.burger').click(function() {
+    $('.burger span:nth-child(1)').toggleClass('first');
+  });
+
+  $('.burger').click(function() {
+    $('.burger span:nth-child(2)').toggleClass('second');
+  });
+
+  $('.burger').click(function() {
+    $('.burger span:nth-child(3)').toggleClass('third');
+  });
+</script>
+<div class="classes">
+  <a href="pages/two-four.html">2 - 4 классы</a>
+  <a href="pages/five-seven.html">5 - 7 классы</a>
+  <a href="pages/eight-nine.html">8 - 9 классы</a>
+  <a href="#">9 - 11 классы</a>
+</div>
+<br><br><br><br><br>
+  </div>
+  <script src="script/script.js"></script>
+</body>
+</html>
