@@ -2,7 +2,7 @@ var main = document.querySelector(".main");
 var toTop = document.querySelector(".totop");
 
 window.onscroll = function () {
-  if (pageYOffset > 310) {
+  if (scrollY > 310) {
     toTop.style.display = "block";
     main.classList.add('rr');
     document.querySelector(".nav").classList.add('rrr');
