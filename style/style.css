@@ -88,7 +88,7 @@ html, body {
 .nav {
   width: 100%;
   height: 66px;
-  background-color: rgba(0, 0, 0, 0.292) !important;
+  background-color: rgba(0, 0, 0, 0.397) !important;
   z-index: 99;
   transition: 0.9s;
   position: fixed;
@@ -104,7 +104,7 @@ html, body {
 .menublock {
   width: 37%;
   min-width: 400px;
-  height: 180px;
+  height: 190px;
   background-color: #f1f8eef3;
   position: fixed;
   top: -203px;
@@ -120,12 +120,6 @@ html, body {
  opacity: 1;
  z-index: 9;
 }
-
-
-
-
-
-
 
 .burger {
   border-radius: 5px;
@@ -143,6 +137,7 @@ html, body {
   align-items: center;
   flex-direction: column;
 }
+
 .burger span {
   transition: all 0.3s;
   height: 6px;
@@ -186,6 +181,7 @@ html, body {
   color: #1e4630;
   background-color: #455c4f13;
 }
+
 .classes {
   display: flex;
   flex-direction: row;
@@ -194,16 +190,18 @@ html, body {
   flex-grow: 1;
   flex-shrink: 1;
 }
+
 .classesinmenu{
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .classesinmenu button {
   padding: 5px 10px;
   border: 2px solid #38644c;
-  font-size: 13px;
+  font-size: 15px;
   color: #38644c;
   cursor: pointer;
   margin: 10px;
@@ -359,7 +357,6 @@ html, body {
   text-align: center;
   padding-top: 40px;
   z-index: 100;
-
   display: none;
   font-size: 1.7em !important;
 }
