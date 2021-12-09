@@ -14,6 +14,7 @@ window.onscroll = function () {
     document.querySelector(".slovo").classList.remove('io');
   }
 } 
+
 toTop.onclick = function () {
   window.scrollTo(0, 0);
 }
@@ -47,7 +48,8 @@ for (but of buts) {
 
 var closeAnswer = document.querySelector(".close");
 var getAnswer = document.querySelector(".answer");
-  // описание результата
+
+// описание результата
 var discription;
 var disc = function (count) {
   if (count == 10) { 

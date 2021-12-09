@@ -5,6 +5,5 @@ begin
     Begin
       if (i mod 4 = 0) and (i mod 3 = 0) then
       writeLn(i);
-
     end;
 end.
