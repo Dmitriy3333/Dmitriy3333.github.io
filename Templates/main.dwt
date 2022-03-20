@@ -2,6 +2,7 @@
 <html> 
 <head>
 <meta charset="utf-8">
+<meta lang="ru">
 <!-- TemplateBeginEditable name="doctitle" -->
 <link rel="stylesheet" href="../style/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
@@ -12,7 +13,7 @@
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 </head> 
-<body>
+<body> 
   <div class="nav">
     <div class="burger">
       <span></span>
