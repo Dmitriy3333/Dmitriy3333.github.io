@@ -363,9 +363,16 @@ html, body {
 
 .maintest div img {
   width: 70%;
+  cursor: pointer;
   margin-left: 5%;
   border-radius: 20px;
+  transition: 0.3s;
 }
+
+.maintest div img:hover {
+  opacity: 0.92;
+}
+
 
 .toback {
   right: -10px; 
@@ -481,3 +488,50 @@ html, body {
   font-size: 1.7vw !important;
 } */
 
+
+.myModal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  padding-top: 150px;
+  left: -10px;
+  right: 0;
+  top: 0;
+  width: 102%;
+  height: 100%;
+  overflow: auto;
+  background-color: #000000a9;
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 900px;
+  max-height: 600px;
+  transform: scale(0);
+  transition: 0.6s;
+}
+
+
+.modal-content-open {
+  transform: scale(1) !important;
+  width:auto
+}
+
+.close-but {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .modal-content{width: 100%;}
+}

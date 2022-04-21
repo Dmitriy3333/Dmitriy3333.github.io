@@ -2,7 +2,7 @@ var main = document.querySelector(".main");
 var toTop = document.querySelector(".totop");
 
 window.onscroll = function () {
-  if (scrollY > 310) {
+  if (scrollY > 410) {
     toTop.style.display = "block";
     main.classList.add('rr');
     document.querySelector(".nav").classList.add('rrr');
@@ -103,3 +103,26 @@ closeAnswer.onclick = function () {
 }
 
 
+// modal img
+
+var imgs = document.querySelectorAll('.maintest div img'); // картинка
+var modal = document.querySelector(".myModal"); // конструкция с увеличением
+var modalImg = document.getElementById('img01'); // увеличенная картинка
+
+for(img of imgs) {
+  img.onclick = function() {
+  modal.style.display = 'block';
+  modalImg.src = this.src;
+
+  setTimeout(function(){ 
+    modalImg.classList.add('modal-content-open');
+    caption.classList.add('modal-content-open');
+  },1);
+}
+
+  modal.onclick = function () {
+    modal.style.display = 'none';
+    modalImg.classList.remove('modal-content-open');
+    caption.classList.remove('modal-content-open');
+  }
+}
