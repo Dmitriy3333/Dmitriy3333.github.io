@@ -8,11 +8,23 @@ html, body {
 .main {
   width: 100%;
   height: 540px;
-  background-image: url(https://im0-tub-ru.yandex.net/i?id=bcc663cd8565832f9fe4ed12bdb87f8f-l&n=13);
+  background-image: url(../images/main.jpeg);
   background-size: cover;
-  background-position: center;
+  background-position: 0 30%;
   margin-top: -23px;
   transition: 0.9s;
+}
+
+.home {
+	float: right;
+	width: 52px;
+	cursor: pointer;
+	height: 52px;
+	margin: 7px;
+	background: url("../images/home.png");
+	background-size: cover;
+	border: 0px solid red;
+	margin-right: 10px;
 }
 
 .slovo {
@@ -122,6 +134,7 @@ html, body {
 }
 
 .burger {
+  float: left;
   border-radius: 5px;
   background-color: #fff;
   width: 50px;
