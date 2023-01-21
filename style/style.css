@@ -458,12 +458,6 @@ width:auto;
     height: 100px;
     margin-top: -7px;
   }
-   .home{
-  	width: 86px;
-  	height: 86px;
-  	margin: 7px;
-  	margin-right: 10px;
-  }
   .burger {
     width: 90px;
     height: 84px;
@@ -475,6 +469,11 @@ width:auto;
   .mp {
     font-size: 4vw;
   }
+  .home {
+    width: 70px;
+    height: 70px;
+    margin: 17px;
+  }  
   .toback {
     bottom: 220px; 
     width: 60px; 
